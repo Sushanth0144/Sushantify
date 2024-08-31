@@ -10,7 +10,7 @@
 *, *::after, *::before
 {
     box-sizing: border-box;
-}
+} 
 /* Typography */
 html {
     font-size: 62.5;
@@ -359,4 +359,21 @@ font-weight: 700;
     .plan__description {
         font-size: 1.7rem;
     }
+}
+
+/* Media */
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin: 0;
+}
+
+.media__body {
+    padding: 0 2rem;
+}
+
+.media__image {
+    margin-top: 1rem;
 }
