@@ -223,6 +223,11 @@ font-weight: 700;
 .btn--accent:hover {
     background-color:#ec3000;
 }
+.btn--strected {
+    padding-left: 6rem;
+    padding-right: 4rems
+    ;
+}
 
 .btn--block {
     width: 100%;
@@ -488,4 +493,47 @@ font-weight: 700;
         margin-left: 6rem;
     }
 
+}
+
+/* Callouts */
+.callout {
+    padding: 4rems;
+    border-radius: 40px;
+}
+
+.callout--primary {
+     background: var(--color-primary);
+     color: #fff;
+}
+
+.callout__heading {
+    color: #fff;
+    margin-top: o;
+    font-size: 3rems;
+}
+
+.callout .btn {
+    justify-self: center;
+    align-self: center;
+}
+
+.callout__content {
+    text-align: center;
+}
+
+
+@media screen and (min-width:768px){
+   .callout .grid--1x2{
+    grid-template-columns: 1fr auto;
+   }
+   
+    .callout__content{
+        text-align: left;
+    }
+
+    .callout .btn {
+
+        justify-self: start;
+        margin: 0 2rem;
+    }
 }
