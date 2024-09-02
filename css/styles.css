@@ -573,3 +573,43 @@ font-weight: 700;
 
 
 }
+
+/* Blocks */
+.block {
+    --padding-vertical: 6rem;
+    padding: var(--padding-vertical) 2rem;
+
+   
+
+}
+.block_header {
+    text-align: center;
+}
+.block__heading {
+    margin: 0;
+}
+
+.block--dark {
+    background: #000;
+    color: #7b858b;
+}
+
+.block--dark .block--heading {
+    color: #fff;
+}
+
+.block--skwewed-right {
+    padding-bottom: calc(var(--padding-vertical) + 4rem);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+}
+
+.block--skwewed-left {
+    padding-bottom: calc(var(--padding-vertical) + 4rem);
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
